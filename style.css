@@ -1,0 +1,82 @@
+html,body{
+    height:100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.main{
+    background-image: url(images/background.jpg);
+    min-height: 100%;
+}
+.i1{
+    background-image: url(images/bagan.jpeg);
+    min-height: 100%;
+}
+.i2{
+    background-image: url(images/wat.jpeg);
+    min-height: 100%;
+}
+.i3{
+    background-image: url(images/ji.jpeg);
+    min-height: 100%;
+}
+.i4{
+    background-image: url(images/rong.jpeg);
+    min-height: 100%;
+}
+.i5{
+    background-image: url(images/paro.jpeg);
+    min-height: 100%;
+}
+.i6{
+    background-image: url(images/buu.jpeg);
+    min-height: 100%;
+}
+.i7{
+    background-image: url(images/byodo.jpeg);
+    min-height: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.main,.i1,.i2,.i3,.i4,.i5,.i6,.i7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section1,.section2,.section3,.section4,.section5,.section6,.section7,.section8{
+    background-color: #e7f0f9;
+    color: #000000;
+    /* background-color: #282e34;
+    color: #fff; */
+}
+
+
+
